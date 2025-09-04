@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Helpers para simular página A4 en el preview */
+@page {
+  size: A4;
+  margin: 20mm;
+}
+
+.page {
+  width: 210mm;
+  min-height: 297mm;
+  margin: auto;
+  background: white;
+}
+.page-inner {
+  padding: 16mm;
+}
